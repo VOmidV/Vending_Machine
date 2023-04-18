@@ -1,38 +1,99 @@
 .App {
-  text-align: center;
+  min-height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main {
+  width: 100%;
   min-height: 100vh;
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/011/290/805/large/rasel-vending4.jpg?1528825260");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.main h1{
+  margin: 0;
+}
+
+.links{
+  position: fixed;
+  bottom: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: 20px;
+}
+
+.links img{
+  width: 25px;
+  height: 25px;
+}
+.links a{
+  background-color: rgb(199, 100, 238);
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.main a{
+  text-decoration: none;
+  content: none;
+}
+
+.options{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.custard{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://t3.ftcdn.net/jpg/01/65/22/62/360_F_165226239_JKmnT4cZXvJ4BIRMDLCCJmVfwtWW4UmD.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custard p{
+  margin: 0;
+  padding: 0;
 }
+
+.comeback button{
+border-radius: 15px;
+background-color: rgb(56, 53, 53);
+color: white;
+}
+
+.comeback{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.comeback Link{
+  text-decoration: none;
+  content: none;
+}
+
+.soda{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://w0.peakpx.com/wallpaper/51/579/HD-wallpaper-kawaii-cute-fruit-soda.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.gum{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://wallpapercave.com/wp/wp3896888.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+
+
